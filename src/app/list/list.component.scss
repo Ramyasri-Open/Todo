@@ -1,0 +1,89 @@
+.container {
+  background-color: rgb(141, 141, 245);
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  box-shadow: 4px 5px;
+}
+h1 {
+  text-decoration: underline;
+  color: rgb(86, 81, 81);
+}
+button {
+  border: none;
+  color: white;
+  background-color: lavender;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  margin-top: 30px;
+  background-color: rgb(86, 81, 81);
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: black;
+}
+
+.bigContainer {
+  width: 500px;
+  height: 500px;
+  margin: 100px auto;
+  position: relative;
+  background-color: lavender;
+  box-shadow: 4px 5px;
+}
+
+.to-do-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: white;
+  margin: 12px;
+  border-radius: 16px;
+}
+
+.to-do-name {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 4px;
+  text-transform: capitalize;
+  color: red;
+}
+
+.green {
+  color: green;
+}
+.yellow {
+  color: yellow;
+}
+
+.delete {
+  cursor: pointer;
+  display: inline;
+}
+.delete:hover {
+  color: rgb(141, 141, 245);
+}
+.task {
+  display: flex;
+  margin-left: 2px;
+  justify-content: space-between;
+}
+.edit {
+  cursor: pointer;
+  display: inline;
+}
+.edit:hover {
+  color: rgb(141, 141, 245);
+}
+.check {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.change {
+  cursor: pointer;
+  color: yellow;
+}

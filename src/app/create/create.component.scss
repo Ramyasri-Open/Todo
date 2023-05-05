@@ -1,0 +1,41 @@
+.container {
+  width: 500px;
+  height: 500px;
+  margin: 100px auto;
+  position: relative;
+  background-color: lavender;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 10px 10px 8px 10px #888888;
+}
+h1 {
+  text-decoration: underline;
+  color: rgb(168, 128, 128);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.title {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(168, 128, 128);
+}
+input {
+  width: 50%;
+  height: 40px;
+  size: 10px;
+  border-radius: 4px;
+  border-color: rgb(168, 128, 128);
+  box-shadow: 5px 4px;
+  outline: none;
+}
+label {
+  font-size: 40px;
+}
+span {
+  cursor: pointer;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  color: rgb(168, 128, 128);
+}

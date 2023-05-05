@@ -1,0 +1,21 @@
+<div class="bigContainer">
+  <div class="container">
+    <h1>To Do List</h1>
+    <button (click)="createTodo()">+</button>
+  </div>
+  <div *ngFor="let item of toDo.to_do_list; let i = index" class="to-do-item">
+    <div>
+      <div class="to-do-name" [ngClass]="{ green: item.is_done }">
+        <input type="checkbox" (click)="changeColor(item)" />
+        <span class="todo-title"></span>
+        <!-- (change)="showHideText()" -->
+        <!-- *ngIf="!isDisplayed" /> -->
+        {{ item.name }}
+      </div>
+    </div>
+    <div class="task">
+      <div class="material-icons edit" (click)="onEdit(i)">edit</div>
+      <div class="material-icons delete" (click)="onDelete(i)">delete</div>
+    </div>
+  </div>
+</div>
